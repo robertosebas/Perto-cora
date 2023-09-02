@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabrielle</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap');
+
+        
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+h1, h2{
+    font-family: 'Lora', serif;
+}
+
+main {
+    margin: 50px auto;
+    width: 960px;
+    display: grid;
+    grid-template-areas: "a b"
+        "c b";
+    grid-template-columns: 360px 1fr;
+    grid-template-rows: 320px 1fr;
+    box-shadow: 0 0 10px  rgb(97, 57, 57);
+    }
+
+#dados-pessoais,#habilidades,#experiencias{
+    padding: 20px;
+}
+#dados-pessoais {
+    background-color: #854d4d;
+    color: #aa1d24;
+    grid-area: a;
+    
+}
+
+#habilidades {
+    background-color: #863939;
+    grid-area: c;
+    
+}
+
+#experiencias {
+    background-color: #8605055b;
+    grid-area: b;
+    margin: 5%;
+   
+}
+
+@media (max-width: 960px) {
+    main {
+        margin: 0px;
+        width: 100%;
+    }
+
+    @media (max-width: 720px) {
+        main {
+            grid-template-columns: 1fr;
+            grid-template-areas: "a"
+                "c"
+                "b";
+        }
+    }
+}
+
+
+
+    </style>
+    <link href=" https://fonts.googleapis.com/icon?family=Material+Icons " rel=" stylesheet ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+            <aside id="dados-pessoais">
+            
+         <center> <img src="nova.jfif" alt=""></center>
+         
+            </aside>
+            <aside id="habilidades">
+                
+                <br>
+                <img src="nova02.jfif" alt="">
+                <h2>Clarice Lispector
+                    Escritora</h2>
+                   <p>
+                    Clarice Lispector, nascida Chaya Pinkhasivna Lispector, foi uma escritora e jornalista brasileira nascida na Ucrânia. Autora de romances, contos, e ensaios, é considerada uma das escritoras brasileiras mais importantes do século XX. 
+                </p>
+            </aside>
+            <section id="experiencias">
+                <center><h1>Perto do Coração Selvagem</h1></center>
+            
+                <P>
+                    "Perto do Coração Selvagem" é o primeiro romance da autora brasileira Clarice Lispector. Publicado em 1943, o livro acompanha a vida de Joana desde sua infância até a idade adulta. A narrativa é não linear e introspectiva, explorando os pensamentos, emoções e experiências da protagonista. Joana enfrenta desafios como a morte da mãe, o casamento e a busca por sua identidade. O título "Perto do Coração Selvagem" reflete a busca de Joana por uma conexão com sua natureza interior e seus sentimentos mais profundos. O livro é conhecido por sua linguagem poética e reflexiva, marcando o início da abordagem única de Clarice Lispector na literatura brasileira.                </P>
+                 <P>
+                    Embora "Perto do Coração Selvagem" tenha sido publicado em 1943 e se concentre mais nas experiências emocionais e psicológicas da protagonista, podemos encontrar paralelos com questões sociais contemporâneas.
+                 </P>
+                 <P>
+                    Clarice Lispector examina a busca de Joana por sua identidade interna, "Pequenos incêndios por toda parte" apresenta personagens que enfrentam questões de identidade, diferenças socioeconômicas e conflitos culturais. Ambos os livros oferecem um olhar íntimo sobre a complexidade humana, enquanto trazem à tona preocupações sociais subjacentes, fazendo com que os leitores reflitam sobre suas próprias vidas e a sociedade em que vivem.
+                 </P>
+                 <p>
+                    oferecem uma visão introspectiva das vidas das personagens, permitindo que os leitores explorem as complexidades de ser humano em um contexto social e cultural mais amplo.
+                 </p>
+            </section>
+        </main>
+</body>
+
+</html>
